@@ -16,22 +16,22 @@ Scales features using StandardScaler.
 ##Model Training & Hyperparameter Tuning:
 Utilizes GridSearchCV to find optimal parameters for each model.
 
-##Evaluation:
+## Evaluation:
 
 Generates and displays confusion matrices for each model.
 Computes performance metrics: Jaccard Score, F1 Score, and Accuracy.
 
-##Requirements
+## Requirements
 pandas
 numpy
 scikit-learn
 matplotlib
 seaborn
 
-##How to Use
+## How to Use
 Clone the repository.
 Install the required packages.
 Run the script to see the model performances and confusion matrices.
 
-##Results
+## Results
 The script outputs confusion matrices and a performance comparison table showing Jaccard Scores, F1 Scores, and Accuracy for each model.
